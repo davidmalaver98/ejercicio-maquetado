@@ -149,7 +149,15 @@ footer {
 .tarjeta {
   flex: 1;
   padding: 1.5rem;
-  border-radius: 8px;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 768px) {
   .contenedor-tarjetas {
