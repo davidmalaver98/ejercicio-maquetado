@@ -9,3 +9,4 @@
 ```bash
    python3 -m http.server 8000
 ```
+4. abrir el puerto 8000 desde la pestaña PORTS.
