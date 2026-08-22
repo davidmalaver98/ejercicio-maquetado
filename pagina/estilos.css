@@ -140,3 +140,23 @@ footer {
     gap: 0.5rem;
   }
 }
+.contenedor-tarjetas {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.tarjeta {
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .contenedor-tarjetas {
+    flex-direction: column;
+  }
+
+  .tarjeta {
+    width: 100%;
+  }
+}
